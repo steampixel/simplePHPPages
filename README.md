@@ -1,11 +1,22 @@
 # Simple PHP Pages - A simple puristic PHP Website Boilerplate
 Hey! This project provides simple and basic concepts for PHP pages. It includes ideas and samples for routing, pages, themes, layouts, components and portals. Just download it and use it as boilerplate for your next web project.
 
-Included Utilities:
+__Included Utilities:__
 * Routing: Simply create speaking URLs - https://github.com/steampixel/simplePHPRouter
 * Templating: The flexible component concept - https://github.com/steampixel/simplePHPComponents
 * Portals: Warping around contents - https://github.com/steampixel/simplePHPPortals
 * Bulma: Simple CSS Framework - https://bulma.io/
+
+__Features:__
+* Included routung
+* Prebuild template structure
+* Override and extend template files
+* Build your own custom elements
+* Create your own pages
+* Working navigation example
+* Working contact form example (Without realy mailing)
+* Works without any database
+* Included CSS Framework (Bulma) can easily switched
 
 ![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview.png)
 
