@@ -24,6 +24,11 @@ __🖼 Preview:__
 
 ## 📕 Quick start
 
+### Install
+1. Download or clone this repo
+2. Run `composer install`
+3. Copy the project to your webserver or use a local server (Below is a docker setup)
+
 ### Create a new page
 1. Create a new page inside `components/default/pages`
 2. Create a route to this page inside the `index.php` file
