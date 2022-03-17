@@ -30,12 +30,12 @@ __🖼 Preview:__
 3. Copy the project to your webserver or use a local server (Below is a docker setup)
 
 ### Create a new page
-1. Create a new page inside `components/default/pages`
+1. Create a new page inside `contents/pages`
 2. Create a route to this page inside the `index.php` file
-3. Update `components/default/layouts/default/navigation.php` and add your page there
+3. Update `themes/default/partials/navigation.php` and add your page there
 
 ### Create a new custom content element
-1. Add your components template inside `components/default/content`
+1. Add your components template inside `themes/default/content`
 2. Load your component inside your page template using the `Component::create()` method
 
 ## 🚢 Test setup with Docker
