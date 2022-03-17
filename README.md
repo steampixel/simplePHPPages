@@ -1,26 +1,33 @@
-# Simple PHP Pages - A simple puristic PHP Website Boilerplate
+# Simple PHP Pages - A simple puristic PHP Website Boilerplate 🚀
 Hey! This project provides simple and basic concepts for PHP pages. It includes ideas and samples for routing, pages, themes, layouts, components and portals. Just download it and use it as boilerplate for your next web project.
 
-__Included Utilities:__
+__🛠 Included Utilities:__
 * Routing: Simply create speaking URLs - https://github.com/steampixel/simplePHPRouter
 * Templating: The flexible component concept - https://github.com/steampixel/simplePHPComponents
 * Portals: Warping around contents - https://github.com/steampixel/simplePHPPortals
 * Bulma: Simple CSS Framework - https://bulma.io/
 
-__Features:__
-* Included routung
+__🧰 Features:__
+* Included routing
 * Prebuild template structure
 * Override and extend template files
 * Build your own custom elements
 * Create your own pages
 * Working navigation example
-* Working contact form example (Without realy mailing)
+* Working contact form example (Without really mailing)
 * Works without any database
 * Included CSS Framework (Bulma) can easily switched
 
-![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview.png)
+__🖼 Preview:__
 
-## Quick start
+![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview_mobile.png)
+
+## 📕 Quick start
+
+### Install
+1. Download or clone this repo
+2. Run `composer install`
+3. Copy the project to your webserver or use a local server (Below is a docker setup)
 
 ### Create a new page
 1. Create a new page inside `components/default/pages`
@@ -31,7 +38,7 @@ __Features:__
 1. Add your components template inside `components/default/content`
 2. Load your component inside your page template using the `Component::create()` method
 
-## Test setup with Docker
+## 🚢 Test setup with Docker
 I have created a little Docker test setup.
 
 1. Build the image: `docker build -t simplephppages docker/image-php-7.4.1`
