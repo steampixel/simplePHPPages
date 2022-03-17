@@ -41,7 +41,7 @@
 
     <?=Component::create('partials/navigation') ?>
 
-    <?=Component::create('content/hero')->assign(['title' => $title, 'subtitle' => $subtitle, 'size' => $hero_size]) ?>
+    <?=Component::create('content/hero')->assign(['title' => $title, 'size' => $hero_size]) ?>
 
     <section class="section">
       <div class="container">
