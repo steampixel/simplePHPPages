@@ -6,7 +6,8 @@ namespace Steampixel;
 Component::create('layout/boxed')->assign([
   'title' => 'Startpage',
   'subtitle' => 'Lorem Ipsum',
-  'lang' => 'en'
+  'lang' => 'en',
+  'hero_size' => 'medium'
 ])->print();
 
 // Send contents to the main contents portal

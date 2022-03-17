@@ -11,9 +11,15 @@
     'required' => false
   ]);
 
+  $size = $this->prop('size',[
+    'type' => 'string',
+    'required' => false,
+    'default' => 'small'
+  ]);
+
 ?>
 
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-<?=$size ?> is-primary is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">

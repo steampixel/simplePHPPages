@@ -18,6 +18,12 @@
     'required' => false
   ]);
 
+  $hero_size = $this->prop('hero_size',[
+    'type' => 'string',
+    'required' => false,
+    'default' => 'small'
+  ]);
+
 ?><!DOCTYPE html>
 <html lang="<?=$lang ?>">
 
@@ -35,7 +41,7 @@
 
     <?=Component::create('partials/navigation') ?>
 
-    <?=Component::create('content/hero')->assign(['title' => $title]) ?>
+    <?=Component::create('content/hero')->assign(['title' => $title, 'subtitle' => $subtitle, 'size' => $hero_size]) ?>
 
     <section class="section">
       <div class="container">
