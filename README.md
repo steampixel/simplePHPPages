@@ -1,13 +1,13 @@
-# Simple PHP Pages - A simple puristic PHP Website Boilerplate
+# Simple PHP Pages - A simple puristic PHP Website Boilerplate 🚀
 Hey! This project provides simple and basic concepts for PHP pages. It includes ideas and samples for routing, pages, themes, layouts, components and portals. Just download it and use it as boilerplate for your next web project.
 
-__Included Utilities:__
+__🛠 Included Utilities:__
 * Routing: Simply create speaking URLs - https://github.com/steampixel/simplePHPRouter
 * Templating: The flexible component concept - https://github.com/steampixel/simplePHPComponents
 * Portals: Warping around contents - https://github.com/steampixel/simplePHPPortals
 * Bulma: Simple CSS Framework - https://bulma.io/
 
-__Features:__
+__🧰 Features:__
 * Included routung
 * Prebuild template structure
 * Override and extend template files
@@ -20,7 +20,7 @@ __Features:__
 
 ![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview_mobile.png)
 
-## Quick start
+## 📕 Quick start
 
 ### Create a new page
 1. Create a new page inside `components/default/pages`
@@ -31,7 +31,7 @@ __Features:__
 1. Add your components template inside `components/default/content`
 2. Load your component inside your page template using the `Component::create()` method
 
-## Test setup with Docker
+## 🚢 Test setup with Docker
 I have created a little Docker test setup.
 
 1. Build the image: `docker build -t simplephppages docker/image-php-7.4.1`
