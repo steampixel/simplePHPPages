@@ -18,7 +18,7 @@ __Features:__
 * Works without any database
 * Included CSS Framework (Bulma) can easily switched
 
-![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview.png)
+![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview_mobile.png)
 
 ## Quick start
 
