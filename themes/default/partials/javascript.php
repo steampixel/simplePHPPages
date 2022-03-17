@@ -1,2 +1,2 @@
 
-<script src="/themes/default/assets/theme.js"></script>
+<script src="/themes/default/assets/js/theme.js"></script>
