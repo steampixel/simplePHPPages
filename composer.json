@@ -1,0 +1,24 @@
+{
+    "name": "steampixel/simple-php-pages",
+    "description": "This project provides simple and basic concepts for PHP pages with no dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steampixel",
+            "email": "info@steampixel.de",
+            "homepage": "https://steampixel.de/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "steampixel/simple-php-portals": "dev-main",
+        "steampixel/simple-php-router": "dev-master",
+        "steampixel/simple-php-components": "dev-main"
+    },
+    "autoload": {
+      "psr-0": {
+          "Steampixel": "src/"
+      }
+  }
+}
