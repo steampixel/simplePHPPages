@@ -1,5 +1,5 @@
 # Simple PHP Pages - A simple puristic PHP Website Boilerplate
-Hey! This project provides simple and basic concepts for PHP pages with no dependencies. It includes ideas and samples for routing, pages, themes, layouts, components and portals. Just download it and use it as boilerplate for your next web project.
+Hey! This project provides simple and basic concepts for PHP pages. It includes ideas and samples for routing, pages, themes, layouts, components and portals. Just download it and use it as boilerplate for your next web project.
 
 Included Utilities:
 * Routing: Simply create speaking URLs - https://github.com/steampixel/simplePHPRouter

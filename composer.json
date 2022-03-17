@@ -1,6 +1,6 @@
 {
     "name": "steampixel/simple-php-pages",
-    "description": "This project provides simple and basic concepts for PHP pages with no dependencies.",
+    "description": "Simple PHP Pages - A simple puristic PHP Website Boilerplate",
     "type": "library",
     "license": "MIT",
     "authors": [
