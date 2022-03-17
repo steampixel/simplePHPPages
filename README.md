@@ -19,6 +19,7 @@ __🧰 Features:__
 * Included CSS Framework (Bulma) can easily switched
 
 __🖼 Preview:__
+
 ![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview_mobile.png)
 
 ## 📕 Quick start
