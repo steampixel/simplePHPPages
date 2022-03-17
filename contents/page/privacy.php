@@ -3,7 +3,7 @@
 namespace Steampixel;
 
 // Lets create and print a default page layout
-Component::create('layouts/default/index')->assign([
+Component::create('layout/boxed')->assign([
   'title' => 'Privacy',
   'subtitle' => 'Lorem Ipsum Dolor',
   'lang' => 'en'

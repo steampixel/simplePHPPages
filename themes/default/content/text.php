@@ -13,9 +13,7 @@
 
 ?>
 
-<section class="section">
-
-	<div class="container">
+	<div class="mb-6">
 
 		<?PHP if($header) { ?>
 			<h2 class="title"><?=$header ?></h2>
@@ -24,5 +22,3 @@
 		<p><?=nl2br($text) ?></p>
 
 	</div>
-
-</section>

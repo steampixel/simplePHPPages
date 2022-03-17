@@ -13,9 +13,7 @@
 
 ?>
 
-<section class="section">
-
-  <div class="container">
+  <div class="mb-6">
 
     <img src="<?=$src ?>" />
 
@@ -26,5 +24,3 @@
     <?PHP } ?>
 
   </div>
-
-</section>
