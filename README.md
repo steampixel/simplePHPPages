@@ -8,16 +8,17 @@ __🛠 Included Utilities:__
 * Bulma: Simple CSS Framework - https://bulma.io/
 
 __🧰 Features:__
-* Included routung
+* Included routing
 * Prebuild template structure
 * Override and extend template files
 * Build your own custom elements
 * Create your own pages
 * Working navigation example
-* Working contact form example (Without realy mailing)
+* Working contact form example (Without really mailing)
 * Works without any database
 * Included CSS Framework (Bulma) can easily switched
 
+__🖼 Preview:__
 ![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview_mobile.png)
 
 ## 📕 Quick start
