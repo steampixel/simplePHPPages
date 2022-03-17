@@ -7,6 +7,8 @@ Included Utilities:
 * Portals: Warping around contents - https://github.com/steampixel/simplePHPPortals
 * Bulma: Simple CSS Framework - https://bulma.io/
 
+![preview](https://raw.githubusercontent.com/steampixel/simplePHPPages/main/preview.png)
+
 ## Quick start
 
 ### Create a new page
