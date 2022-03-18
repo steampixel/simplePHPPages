@@ -50,7 +50,7 @@ Route::add('/user/([0-9]*)/edit', function($id) {
 ## 🎨 Themes
 Themes live in the `themes` folder. There is just one `default` theme at the moment. A theme consists of several Components ([simplePHPComponents](https://github.com/steampixel/simplePHPComponents)) and some assets like CSS and JavaScript files. The theme defines the markup of content elements, reusable particals like navigation and header and page layouts. Just extend the default theme or create your own.
 
-The used theme is declared within the `index.php` file.
+The currently used theme is declared within the `index.php` file.
 
 ## 📄 Pages
 A page is a instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). It will act as some kind of a controller. A page defines its contents and will load a layout from the theme. Then the page will push the contents to the main content section of the used theme. Copy and create new pages if you want.
@@ -62,7 +62,7 @@ Route::add('/my-new-page', function() {
 ```
 
 ## 🧱 Content Blocks
-Imagine blocks as stackable and reusable content templates that live inside the theme folder in `themes/default/content`. Every page will consist of one ore more of those blocks. A content block is also an instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). Content blocks can be text, text with images, sliders, hero-elements, tabs, tables, etc. Simply print and reuse a content block by using `Component::create()`:
+Imagine blocks as stackable and reusable content templates that live inside the theme folder in `themes/default/content`. Every page will consist of one ore more of this blocks. A content block is also an instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). Content blocks can be text, text with images, sliders, hero-elements, tabs, tables, etc. Simply print and reuse a content block by using `Component::create()`:
 ```php
 Component::create('content/hero')->assign(['title' => 'Welcome', 'subtitle' => 'Lorem Ipsum'])
 ```

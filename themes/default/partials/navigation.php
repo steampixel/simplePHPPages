@@ -41,11 +41,11 @@
               Privacy
             </a>
             <hr class="navbar-divider">
-            <a href="/imprint" class="navbar-item">
-              Imprint
+            <a href="/user/42/edit" class="navbar-item">
+              Edit user 42
             </a>
-            <a href="/privacy" class="navbar-item">
-              Privacy
+            <a href="/user/161/edit" class="navbar-item">
+              Edit user 161
             </a>
           </div>
         </div>

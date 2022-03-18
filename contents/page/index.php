@@ -11,7 +11,6 @@ Component::create('layout/boxed')->assign([
 ])->print();
 
 // Send contents to the main contents portal
-// The portal is located somewhere inside of the layouts subcomponent
 Portal::send('contents-main', [
 
   // Add text component

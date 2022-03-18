@@ -48,6 +48,10 @@ Route::add('/imprint', function() {
   Component::create('page/imprint')->print();
 });
 
+Route::add('/user/([0-9]*)/edit', function($id) {
+  Component::create('page/edit-user')->assign('id', $id)->print();
+}, 'get');
+
 // Add a 404 not found route
 Route::pathNotFound(function($path) {
   header('HTTP/1.0 404 Not Found');
