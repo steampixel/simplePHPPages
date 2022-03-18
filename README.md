@@ -13,6 +13,7 @@ __🧰 Features:__
 * Override and extend template files
 * Build your own custom elements
 * Create your own pages
+* Use reusable content blocks
 * Working navigation example
 * Working contact form example (Without really mailing)
 * Works without any database
