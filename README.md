@@ -11,13 +11,13 @@ __🧰 Features:__
 * Included routing
 * Prebuild template structure
 * Override and extend template files
-* Build your own custom elements
+* Build your own custom content blocks
 * Create your own pages
-* Use reusable content blocks
 * Working navigation example
 * Working contact form example (Without really mailing)
 * Works without any database
 * Included CSS Framework (Bulma) can easily switched
+* Prebuild 404 page
 
 __🖼 Preview:__
 
