@@ -71,7 +71,7 @@ Component::create('layout/boxed')->assign([
 ```
 
 ## 🕳 Portals
-Portals will be used to throw contents to a defined point inside your app. For example a theme will somewhere inside open a `contents-main` portal. Using this Portal you can throw contents to there from any other point of your app.
+Portals will be used to throw contents to a defined point inside your app. For example a theme will somewhere inside open a `contents-main` portal. Using this Portal you can throw contents to there from any other point of your app. Read more about Portals: [simplePHPPortals](https://github.com/steampixel/simplePHPPortals)
 ```php
 Portal::send('contents-main', 'Hello World');
 ```
