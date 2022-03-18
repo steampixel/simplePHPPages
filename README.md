@@ -52,12 +52,18 @@ Themes live in the `themes` folder. There is just one `default` theme at the mom
 The used theme is declared within the `index.php` file.
 
 ## 📄 Pages
-A page is a instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). It is used as a controller. A page defines its contents and will load a layout from the theme. Then the page will push some contents to the main content section of the used theme. Copy and create new pages if you want.
+A page is a instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). It will act as some kind of a controller. A page defines its contents and will load a layout from the theme. Then the page will push the contents to the main content section of the used theme. Copy and create new pages if you want.
 Do not forget to create a route to your new page:
 ```php
 Route::add('/my-new-page', function() {
   Component::create('page/my-new-page')->print();
 });
+```
+
+## 🧱 Content Blocks
+Imagine blocks as stackable and reusable content templates that live inside the theme folder in `themes/default/content`. Every page will consist of one ore more of those blocks. A content block is also an instance of [simplePHPComponents](https://github.com/steampixel/simplePHPComponents). Content blocks can be text, text with images, sliders, hero-elements, tabs, tables, etc. Simply print and reuse a content block by using `Component::create()`:
+```php
+Component::create('content/hero')->assign(['title' => 'Welcome', 'subtitle' => 'Lorem Ipsum'])
 ```
 
 ## ▦ Layouts
